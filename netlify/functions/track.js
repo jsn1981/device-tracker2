@@ -29,7 +29,7 @@ exports.handler = async (event) => {
                 personalizations: [{ 
                 to: [
                     { email: "jyotisankar.nayak@gmail.com" },
-                    { email: "sridivyasuryanarayana@example.com" }
+                    { email: "sridivyasuryanarayana@gmail.com" }
                 ],
                 from: { 
                     email: "jyotisankar.nayak@gmail.com", // MUST be verified
