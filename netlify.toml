@@ -2,6 +2,6 @@
   functions = "netlify/functions"
   publish = "."
 [[redirects]]
-  from = "/ARMY_RECRUITMENT_RALLY_AGNIVEER_AROSRINAGAR_2025-2026.pdf"
-  to = "/static/ARMY_RECRUITMENT_RALLY_AGNIVEER_AROSRINAGAR_2025-2026.pdf"
+  from = "/goa-real-estate-regulation-and-development-registration-of-real-estate-projects-registration-of-real-estate-agents-rates-of-interest-and-disclosures-on-website-rules-2017.pdf"
+  to = "/goa-real-estate-regulation-and-development-registration-of-real-estate-projects-registration-of-real-estate-agents-rates-of-interest-and-disclosures-on-website-rules-2017.pdf"
   status = 200
