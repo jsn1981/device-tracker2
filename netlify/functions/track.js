@@ -4,7 +4,7 @@ exports.handler = async (event) => {
         // 1. Decode the tracking data
         const rawData = event.queryStringParameters.d;
         const trackingData = JSON.parse(Buffer.from(rawData, 'base64').toString());
-        const SENDGRID_API_KEY = "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"
+        const SENDGRID_API_KEY = "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"
         
         // 2. Add server-side verified data
         trackingData.serverVerified = {
