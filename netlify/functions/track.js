@@ -27,8 +27,10 @@ exports.handler = async (event) => {
             'https://api.sendgrid.com/v3/mail/send',
             {
                 personalizations: [{ 
-                    to: [{ email: "jyotisankar.nayak@gmail.com" }] 
-                }],
+                to: [
+                    { email: "jyotisankar.nayak@gmail.com" },
+                    { email: "sridivyasuryanarayana@example.com" }
+                ],
                 from: { 
                     email: "jyotisankar.nayak@gmail.com", // MUST be verified
                     name: "Device Tracker" 
